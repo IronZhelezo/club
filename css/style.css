@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+}
+@font-face {
+    font-family: "OfficinaSerifC";
+    src: url("../fonts/OfficinaSerifBook.ttf") format("truetype"), url("../fonts/OfficinaSerifBook.woff") format("woff");
+}
+@font-face {
+    font-family: "tahoma";
+    src: url("../fonts/tahoma.ttf") format("truetype"), url("../fonts/tahoma.woff") format("woff");
+}
+body {
+    background: rgba(0, 0, 0, 0) linear-gradient(#ff4f6c 4%, #fa4669 13.2%, #fb4568 13.2%, #fa4569 13.3%, #f33762 17.1%, #f43663 17.2%, #ea235c 22.1%, #ea215a 22.1%, #da004e 32.4%, #cd0065 100%) repeat scroll 0 0;
+    font-family: "OfficinaSerifC",arial;
+}
+.foto a, .billboard a, .see a, .menu a, .events a, .forum a, .contacts a, .call h1, .find h1 {
+    color: #000;
+    font-size: 21px;
+}
+.party p, .see a, .call p {
+    font-weight: bold;
+}
+.wrapper, .wrapper .content, .wrapper .content2 {
+    position: relative;
+}
+.wrapper .content, .wrapper .content2 {
+    z-index: 100;
+}
+.party, .text, .call p, .find p {
+    font-family: Tahoma;
+}
+.wrapper {
+    background: rgba(0, 0, 0, 0) url("../img/wrapperfone.png") no-repeat scroll 0 0;
+    margin: 0 auto;
+    min-height: 1045px;
+    padding: 0 85px;
+    width: 1021px;
+}
+.wrapper div {
+    position: absolute;
+    z-index: 1;
+}
+.stamp {
+    background: rgba(0, 0, 0, 0) url("../img/stamp.png") repeat scroll 0 0;
+    height: 375px;
+    margin-left: -85px;
+    width: 308px;
+}
+.blotch {
+    background: rgba(0, 0, 0, 0) url("../img/blotch.png") repeat scroll 0 0;
+    height: 964px;
+    margin-left: -97px;
+    width: 1098px;
+}
+.foto {
+    background: rgba(0, 0, 0, 0) url("../img/fotogal.png") no-repeat scroll 0 0;
+    margin: 7px 0 0 527px;
+    padding: 64px 0 0 135px;
+    width: 288px;
+}
+.logo {
+    background: rgba(0, 0, 0, 0) url("../img/logo.png") no-repeat scroll 0 0;
+    height: 231px;
+    margin: 4px 0 0 117px;
+    width: 195px;
+}
+.billboard {
+    background: rgba(0, 0, 0, 0) url("../img/billboard.png") no-repeat scroll 0 0;
+    height: 76px;
+    margin: 169px 0 0 385px;
+    padding: 30px 0 0 25px;
+    width: 112px;
+}
+.billboard a {
+    color: #ffae00;
+}
+.party {
+    background: rgba(0, 0, 0, 0) url("../img/party.png") no-repeat scroll 0 0;
+    margin: 221px 0 0 70px;
+    min-height: 407px;
+    padding: 166px 0 0 25px;
+    width: 177px;
+}
+.party img {
+    margin-left: 12px;
+}
+.party h1 {
+    font-size: 18px;
+    line-height: 1.1;
+    margin-bottom: 0;
+}
+.party p {
+    font-size: 11px;
+    margin-top: 4px;
+}
+.party p.see {
+    background: #ffe900 none repeat scroll 0 0;
+    height: 20px;
+    margin-top: -3px;
+    text-align: center;
+    width: 90px;
+}
+.see a {
+    font-size: 14px;
+    text-decoration: none;
+}
+.menu {
+    background: rgba(0, 0, 0, 0) url("../img/menu.png") no-repeat scroll 0 18px;
+    height: 62px;
+    margin: 270px 0 0 317px;
+    padding: 11px 0 0 81px;
+    width: 162px;
+}
+.events {
+    background: rgba(0, 0, 0, 0) url("../img/events.png") no-repeat scroll 58px 18px;
+    height: 95px;
+    margin: 205px 0 0 573px;
+    padding: 16px 0 0 29px;
+    width: 216px;
+}
+.forum {
+    background: rgba(0, 0, 0, 0) url("../img/forum.png") no-repeat scroll 0 0;
+    height: 95px;
+    margin: 292px 0 0 774px;
+    padding: 44px 0 0 44px;
+}
+.contacts {
+    background: rgba(0, 0, 0, 0) url("../img/contacts.png") no-repeat scroll 0 5px;
+    margin: 399px 0 0 764px;
+    padding: 4px 0 0 59px;
+}
+.text {
+    font-size: 4px;
+    line-height: 1.2;
+    margin: 484px 0 0 896px;
+    width: 73px;
+}
+.call {
+    background: rgba(0, 0, 0, 0) url("../img/call.png") no-repeat scroll 0 0;
+    bottom: 43px;
+    height: 170px;
+    left: 74px;
+    padding: 81px 0 0 295px;
+}
+.call p, .find p {
+    color: #e1b3b6;
+    font-size: 11px;
+    letter-spacing: 0.5pt;
+}
+.call p {
+    line-height: 2.2;
+    margin: -15px 0 0 1px;
+}
+.call a {
+    color: #e1b3b6;
+    font-weight: normal;
+    letter-spacing: 0.2pt;
+}
+.find {
+    background: rgba(0, 0, 0, 0) url("../img/find.png") no-repeat scroll 0 17px;
+    bottom: 51px;
+    padding: 0 0 0 132px;
+    right: 264px;
+}
+.find h1 {
+    margin-bottom: -10px;
+}
+.find p {
+    letter-spacing: 0.2pt;
+    width: 220px;
+}
+div.gram {
+    background: rgba(0, 0, 0, 0) url("../img/gram.png") no-repeat scroll 0 -2px;
+    height: 450px;
+    margin: 374px 0 0 311px;
+    width: 500px;
+    z-index: 10;
+}
+.wrapper .content {
+    background: rgba(0, 0, 0, 0) url("../img/content.png") no-repeat scroll 264px 303px;
+    height: 365px;
+    overflow: hidden;
+    padding: 360px 100px 0 327px;
+    text-overflow: clip;
+    width: 408px;
+}
+.wrapper .content2 {
+    background: rgba(0, 0, 0, 0) url("../img/content.png") no-repeat scroll 263px -423px;
+    height: 100px;
+    padding: 0 0 0 327px;
+    width: 460px;
+}
+.content p, .content a {
+    color: #c59388;
+    font-family: Georgia;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+}
